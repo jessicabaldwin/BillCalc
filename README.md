@@ -1,3 +1,3 @@
 # BillCalc
 
-Kamal
+kamaljit Singh
