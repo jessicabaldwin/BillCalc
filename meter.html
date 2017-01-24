@@ -1,0 +1,80 @@
+<html>
+<head>
+	<title></title>
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+</head>
+<body>
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">Websule INC</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="#">Home</a></li>
+      <li><a href="#">Page 1</a></li>
+      <li><a href="#">Page 2</a></li>
+
+    </ul>
+    <ul class="nav navbar-nav navbar-right">
+    	 <li><a href="#"><span class="glyphicon glyphicon-cog"></span> Account Settings</a>
+</li>
+    </ul>
+  </div>
+</nav>
+<div class="container">
+  <div class="col-md-12">
+  <div class="jumbotron">
+  <center><h2>Electricity Unit Calculator</h2>      
+  <p>Please fill previous and current readings to calculate electricity units consumed.</p></center>
+  <form>
+  <table class="table table-striped">
+    <thead>
+      <tr>
+        <th>Meter Name</th>
+        <th>Previous Reading</th>
+        <th>Previous Reading Date</th>
+        <th>New Reading</th>
+        <th>New Reading Date</th>
+        <th>Units Consumed</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><input type="text" class="form-control" ></td>
+        <td><input type="number" class="form-control" ></td>
+        <td><input type="date" class="form-control" ></td>
+        <td><input type="number" class="form-control" ></td>
+        <td><input type="date" class="form-control" ></td>
+        <td><input type="number" class="form-control" ></td>
+      </tr>
+      <tr>
+        <td colspan="5">Total Units Consumed</td>
+        <td>150</td>
+      </tr>
+      
+    </tbody>
+    </table>
+    <div class="col-md-12">
+    <button class="pull-left btn btn-sm btn-success">Add New Item</button>
+    <button class="pull-right btn btn-sm btn-danger">Remove Item</button></div>
+    <br><br>
+</form>
+<div class="col-md-12">
+    <button class="pull-left btn btn-primary">Add to Bill</button>
+
+</div>
+</div>
+
+
+
+</div>
+</body>
+</html>
